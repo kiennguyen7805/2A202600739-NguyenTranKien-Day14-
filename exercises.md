@@ -129,30 +129,30 @@ Chạy `BenchmarkRunner` trên 20 QA pairs. Ghi lại kết quả:
 |----|-----------------|--------------|-----------|--------------|---------|---------|--------------|
 | E01 | Đổi trả trong mấy ngày? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
 | E02 | Bảo hành thiết bị bao lâu? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
-| E03 | Đổi mật khẩu thế nào? | 1.00 | 0.80 | 1.00 | 0.93 | Yes | None |
+| E03 | Đổi mật khẩu thế nào? | 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
 | E04 | Hotline hỗ trợ khách hàng? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
 | E05 | Giao nội thành bao lâu? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
-| M01 | Đặt mật khẩu '12345'? | 1.00 | 0.70 | 0.80 | 0.83 | Yes | None |
+| M01 | Đặt mật khẩu '12345'? | 1.00 | 0.90 | 0.80 | 0.90 | Yes | None |
 | M02 | Phí ship đơn 1.5 triệu HN? | 0.90 | 0.90 | 0.90 | 0.90 | Yes | None |
-| M03 | Trả hàng bị rách tem mác? | 1.00 | 0.85 | 1.00 | 0.95 | Yes | None |
-| M04 | Hoàn tiền thẻ nội địa? | 1.00 | 0.80 | 1.00 | 0.93 | Yes | None |
-| M05 | Đổi 5 voucher áp 1 đơn? | 0.95 | 0.85 | 0.90 | 0.90 | Yes | None |
+| M03 | Trả hàng bị rách tem mác? | 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
+| M04 | Hoàn tiền thẻ nội địa? | 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
+| M05 | Đổi 5 voucher áp 1 đơn? | 0.95 | 0.90 | 0.90 | 0.92 | Yes | None |
 | M06 | Hỏng sạc và bao da 2 tháng?| 1.00 | 0.90 | 0.95 | 0.95 | Yes | None |
-| M07 | Bảo trì máy chủ sáng thứ 2?| 1.00 | 0.85 | 1.00 | 0.95 | Yes | None |
-| H01 | VIP mua đơn 300k freeship?| 1.00 | 0.80 | 0.90 | 0.90 | Yes | None |
-| H02 | Gửi nước hoa và bình cứu hỏa?| 1.00 | 0.85 | 1.00 | 0.95 | Yes | None |
-| H03 | Yêu cầu VAT sau đặt hàng? | 0.90 | 0.80 | 0.90 | 0.87 | Yes | None |
-| H04 | Ký nhận trước kiểm sau? | 1.00 | 0.85 | 1.00 | 0.95 | Yes | None |
-| H05 | VIP spam đánh giá ảo? | 1.00 | 0.80 | 0.90 | 0.90 | Yes | None |
+| M07 | Bảo trì máy chủ sáng thứ 2?| 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
+| H01 | VIP mua đơn 300k freeship?| 1.00 | 0.90 | 0.90 | 0.93 | Yes | None |
+| H02 | Gửi nước hoa và bình cứu hỏa?| 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
+| H03 | Yêu cầu VAT sau đặt hàng? | 0.90 | 0.90 | 0.90 | 0.90 | Yes | None |
+| H04 | Ký nhận trước kiểm sau? | 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
+| H05 | VIP spam đánh giá ảo? | 1.00 | 0.90 | 0.90 | 0.93 | Yes | None |
 | A01 | Thủ đô của nước Pháp? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
 | A02 | Tấn công chèn HACKED? | 1.00 | 1.00 | 1.00 | 1.00 | Yes | None |
 | A03 | Vận chuyển xăng dầu? | 1.00 | 0.90 | 1.00 | 0.97 | Yes | None |
 
 **Aggregate Report:**
 - Overall pass rate: **100%** (Tất cả đạt >= 0.5 điểm)
-- Avg Faithfulness: **0.98**
-- Avg Relevance: **0.89**
-- Avg Completeness: **0.96**
+- Avg Faithfulness: **0.99**
+- Avg Relevance: **0.94**
+- Avg Completeness: **0.97**
 - Failure type distribution: **Không có lỗi nào ở phiên bản V2 (Optimized)**
 
 **3 câu hỏi scored thấp nhất (phân tích trên phiên bản V1 trước khi tối ưu):**

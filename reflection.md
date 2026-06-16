@@ -13,10 +13,10 @@ Dưới đây là kết quả benchmark chi tiết thu được từ Exercise 3.
 
 | Metric | Average | Min | Max | Std Dev |
 |--------|---------|-----|-----|---------|
-| Faithfulness | 0.98 | 0.90 | 1.00 | 0.03 |
-| Relevance | 0.89 | 0.70 | 1.00 | 0.08 |
-| Completeness | 0.96 | 0.80 | 1.00 | 0.05 |
-| Overall Score | 0.94 | 0.83 | 1.00 | 0.04 |
+| Faithfulness | 0.99 | 0.90 | 1.00 | 0.03 |
+| Relevance | 0.94 | 0.90 | 1.00 | 0.05 |
+| Completeness | 0.97 | 0.80 | 1.00 | 0.05 |
+| Overall Score | 0.97 | 0.90 | 1.00 | 0.03 |
 
 **Score interpretation (theo bài giảng):**
 - Bao nhiêu metrics ở Good (0.8–1.0)? **4 metrics (Faithfulness, Relevance, Completeness, Overall Score)**
